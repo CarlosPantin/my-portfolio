@@ -14,13 +14,13 @@ const About = () => {
           <div className="col-3">
             <h2>About Me</h2>
 
-            <p>
+            <p className="aboutme-text">
               Hello, I'm Carlos Pantin. I'm a passionate developer with a love
               for creating interactive and user-friendly web applications. I
               enjoy working with technologies like React, HTML, CSS, Javascript
               among others to build beautiful and responsive websites.
             </p>
-            <p>
+            <p className="aboutme-text">
               When I'm not coding, I love to learn more about new coding
               practices and I love to keep a healthy body with working out. Feel
               free to explore my portfolio to see some of my recent projects.

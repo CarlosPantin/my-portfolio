@@ -50,12 +50,14 @@
   align-self: center;
 }
 
-.col-3 p {
-  font-size: 1.2rem; 
-  max-width: 80%; 
+.aboutme-text{
+  font-size: 1.5rem; 
+  max-width: 100%; 
 margin: 0 auto; 
 word-wrap: break-word; 
 }
+
+
 
 .skill-card {
   background: linear-gradient(45deg, #002240, #ff3333); 
