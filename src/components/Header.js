@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.css";
 import ParticlesBg from "particles-bg";
 import { Link } from "react-scroll";
+import Download from "./Download";
 
 const Header = () => {
   return (
@@ -20,7 +21,9 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <a href="#portfolio">Portfolio</a>
+          <Link to="projects" smooth={true} duration={1000}>
+              <a href="">Projects</a>
+            </Link>
           </li>
         </ul>
       </nav>
@@ -42,14 +45,7 @@ const Header = () => {
           >
             GitHub
           </a>
-          <a
-            href=" "
-            target="_blank"
-            rel="noopener noreferrer"
-            className="resume-button"
-          >
-            Resume
-          </a>
+         <Download/>
         </div>
       </div>
     </header>
