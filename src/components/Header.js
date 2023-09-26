@@ -31,7 +31,7 @@ const Header = () => {
         <h1>Carlos Pantin</h1>
         <p>
           Passionate Junior Developer. I love web development using React,
-          however I am well acquainted wiht other technologies and approaches. I
+          however I am well acquainted with other technologies and approaches. I
           love challenges and I love to learn as much as I can to adapt to the
           industry changes. Feel free to see a little bit more about me and my
           work down below. (More projects WIP)
