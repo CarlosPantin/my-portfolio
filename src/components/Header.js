@@ -16,12 +16,12 @@ const Header = () => {
             </Link>
           </li>
           <li>
-          <Link to="background" smooth={true} duration={1000}>
+            <Link to="background" smooth={true} duration={1000}>
               <a href="">Background</a>
             </Link>
           </li>
           <li>
-          <Link to="projects" smooth={true} duration={1000}>
+            <Link to="projects" smooth={true} duration={1000}>
               <a href="">Projects</a>
             </Link>
           </li>
@@ -30,11 +30,13 @@ const Header = () => {
       <div className="header-content">
         <h1>Carlos Pantin</h1>
         <p>
-          Passionate Junior Developer. I love web development using React,
-          however I am well acquainted with other technologies and approaches. I
-          love challenges and I love to learn as much as I can to adapt to the
-          industry changes. Feel free to see a little bit more about me and my
-          work down below. (More projects WIP)
+          Passionate Junior Developer here, and I'm all about web development,
+          especially when it comes to React. But hey, I'm no one-trick pony.
+          I'm pretty familiar with a bunch of other tech and methods too. I
+          thrive on challenges, and I'm all about soaking up knowledge to keep
+          up with the ever-changing industry. Check out a bit more about me and
+          what I'm working on down below. (Got more projects in the works, by
+          the way!)
         </p>
         <div className="buttons">
           <a
@@ -45,7 +47,7 @@ const Header = () => {
           >
             GitHub
           </a>
-         <Download/>
+          <Download />
         </div>
       </div>
     </header>
