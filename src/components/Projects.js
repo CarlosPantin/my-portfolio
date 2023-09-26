@@ -44,7 +44,30 @@ const Projects = () => {
               <FontAwesomeIcon icon={faGithub} />
             </a>
           </div>
+
+
+           
+
+
         ))}
+         <div className="project-card">
+            <h3>Chat App</h3>
+            <p>A fullstack chat app in which the user can join a chat room via a username and talk to someone within the same room!</p>
+            <p>In development</p>
+            
+              
+          
+          </div>
+
+          <div className="project-card">
+            <h3>TicTacToe</h3>
+            <p>A simple TicTacToe game!</p>
+            <p>In development</p>
+            
+              
+          
+          </div>
+
       </div>
     </section>
   );
