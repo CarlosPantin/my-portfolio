@@ -26,7 +26,13 @@ const Projects = () => {
       status: "https://www.youtube.com/watch?v=xsWV8AcXar8",
       github: "https://github.com/CarlosPantin/spotify-app",
     },
-    
+    {
+      title: "TicTacToe",
+      description:
+        "My girlfriend suggested that I make a TicTacToe game that we can use together, so I made one! It's a simple local TicTacToe game.",
+      status: "https://tic-tac-toe-cp.vercel.app/",
+      github: "https://github.com/CarlosPantin/tic-tac-toe",
+    },
   ];
 
   return (
@@ -44,33 +50,18 @@ const Projects = () => {
               <FontAwesomeIcon icon={faGithub} />
             </a>
           </div>
-
-
-           
-
-
         ))}
-         <div className="project-card">
-            <h3>Chat App</h3>
-            <p>A fullstack chat app. The user inputs a username and room id and if someone else enters the same room id, they're both connected!</p>
-            <p>Awaiting Deployment</p>
-            <a href="https://github.com/CarlosPantin/cp-chat-application">
-              <FontAwesomeIcon icon={faGithub} />
-            </a>
-            
-              
-          
-          </div>
-
-          <div className="project-card">
-            <h3>TicTacToe</h3>
-            <p>A simple TicTacToe game!</p>
-            <p>In development</p>
-            
-              
-          
-          </div>
-
+        <div className="project-card">
+          <h3>Chat App</h3>
+          <p>
+            A fullstack chat app. The user inputs a username and room id and if
+            someone else enters the same room id, they're both connected!
+          </p>
+          <p>Awaiting Deployment</p>
+          <a href="https://github.com/CarlosPantin/cp-chat-application">
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+        </div>
       </div>
     </section>
   );
