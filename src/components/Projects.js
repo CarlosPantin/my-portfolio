@@ -52,8 +52,11 @@ const Projects = () => {
         ))}
          <div className="project-card">
             <h3>Chat App</h3>
-            <p>A fullstack chat app in which the user can join a chat room via a username and talk to someone within the same room!</p>
-            <p>In development</p>
+            <p>A fullstack chat app. The user inputs a username and room id and if someone else enters the same room id, they're both connected!</p>
+            <p>Awaiting Deployment</p>
+            <a href="https://github.com/CarlosPantin/cp-chat-application">
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
             
               
           
