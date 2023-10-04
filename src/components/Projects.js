@@ -62,6 +62,18 @@ const Projects = () => {
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>
+
+        <div className="project-card">
+          <h3>Mobile Weather App</h3>
+          <p>
+            My frist try at flutter! I created a simple weather app that
+            displays weather information of a specificc city.
+          </p>
+          <p>In development</p>
+          <a href="https://github.com/CarlosPantin/Mobile-Weather-App">
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+        </div>
       </div>
     </section>
   );
